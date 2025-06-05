@@ -16,13 +16,13 @@ Este sensor possui trilhas condutivas que detectam a presença de água. Conform
 O Arduino lê o valor analógico do sensor através de uma de suas portas analógicas, valor que varia conforme o nível de água detectado.
 Com base no valor lido, o Arduino acende diferentes LEDs para indicar o nível de água:
 
-LED Verde: Nível alto.
+LED Verde: Nível baixo.
 
 LED Amarelo: Nível médio.
 
-LED Vermelho: Nível baixo.
+LED Vermelho: Nível alto.
 
-O código no Arduino define limites para os diferentes níveis de água e acende os LEDs correspondentes quando esses limites são atingidos.
+O código no Arduino define limites para os diferentes níveis de água e acende os LEDs correspondentes quando esses limites são atingidos. É possível mudar esses limites conforme desejado para maior flexibilidade e escalabilidade do sistema.
 
 ![image](https://github.com/user-attachments/assets/181acd8a-a235-48b2-ae68-a794b3c77388)
 
